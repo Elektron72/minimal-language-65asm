@@ -49,7 +49,7 @@ repository:
       }
       # hex, suffixed with h(h)
       {
-        match: '-?([a-fA-F0-9]+)h'
+        match: '-?([a-fA-F0-9]+)h\\b'
         name: 'constant.numeric.hex.65c02-generic'
       }
       # binary
